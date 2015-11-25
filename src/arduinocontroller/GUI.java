@@ -130,6 +130,7 @@ public class GUI extends javax.swing.JFrame {
         if(jToggleButton1.isSelected()){
             try {
                 arduinoConnection.digitalWrite((byte) 0x01);
+                jToggleButton1.setText("Apagar Led");
             } catch (SerialPortException ex) {
                 Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -137,6 +138,7 @@ public class GUI extends javax.swing.JFrame {
         else{
             try {
                 arduinoConnection.digitalWrite((byte) 0x00);
+                jToggleButton1.setText("Acender Led");
             } catch (SerialPortException ex) {
                 Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
             }
