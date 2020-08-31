@@ -3,7 +3,7 @@
 
 ## Serial connection between Arduino and Java [Tutorial]
 
-See this text in portuguese [here](http://lite.acad.univali.br/pt/27/11/2015/410/)
+<small> See this text in portuguese [here](http://lite.acad.univali.br/pt/27/11/2015/410/) </small>
 
 The idea of this code is to show an easy way to “Makerize” your environment through the communication between Java and Arduino, for that some basic notions are necessary:
 
